@@ -1,28 +1,21 @@
 {
   "expo": {
     "name": "TenderManagementApp",
-    "slug": "TenderManagementApp",
+    "slug": "tendermanagementapp",
     "version": "1.0.0",
+    "sdkVersion": "48.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.yourcompany.tendermanagementapp"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "867a5111-d3c9-47ec-8c40-51a4110135d3"
+      }
     }
   }
 }
